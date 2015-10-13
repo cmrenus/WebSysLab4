@@ -1,0 +1,63 @@
+	.headers{
+		width:100%;
+		text-align: center;
+		border-bottom: dashed 3px;
+	}
+	.headers section {
+		width: 14%;
+		display: inline-block;
+		text-decoration: underline;
+		font-size: 150%;
+	}
+	.song{
+		width: 100%;
+		text-align: center;
+		/*border-bottom: dashed 3px;*/
+	}
+	.song section{
+		width: 14%;
+		display: inline-block;
+	}
+	#coverart{
+		width: 150px;
+	}
+	img{
+		width: 100%;
+	}
+	.content{
+		border: solid 3px;
+	}
+	.song .name{
+		font-variant: small-caps;
+	}
+	.song .artist{
+		font-weight: bold;
+	}
+	.song .album{
+		font-style: italic
+	}
+	.song .genre article{
+		display: list-item;
+		list-style-type: circle;
+		list-style-position: inside;
+	}
+	.album_art{
+		position:relative;
+		left: 42%;
+	}
+
+	.year, .genre, .link{
+		position: relative;
+		right: 14%;
+	}
+
+	.favorite-song{
+		color: green;
+	}
+
+	footer{
+		padding-top: 15px;
+		font-style: italic;
+		font-size: 70%;
+		text-align: center;
+	}
